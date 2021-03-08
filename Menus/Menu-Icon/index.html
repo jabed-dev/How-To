@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu Icon</title>
+</head>
+
+<body>
+    <h3>A Menu icon</h3>
+    <br>
+    <div class="menu">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <br><br><br>
+
+    <h3>Toggle Menu icon</h3>
+    <br>
+    <div class="toggle-menu" onclick="transformMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <script>
+        function transformMenu(x) {
+            x.classList.toggle('change')
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

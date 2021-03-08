@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999999;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #e4e4e4;
+}
+
+/* Main content */
+.main {
+    margin-left: 200px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: #008000;
+    color: #ffffff;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidenav a {
+    position: absolute;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 140px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+
+.sidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #4caf50;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196f3;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555555;
+}
