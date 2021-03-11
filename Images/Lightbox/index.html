@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Lightbox</title>
 </head>
+
 <body>
 
-    
+    <h2 style="padding: 16px; text-align:center">Lightbox</h2>
+
+    <div class="row">
+        <div class="column"><img src="image/img_nature.jpg" class="hover-shadow" style="width:100%"
+                onclick="currentSlide(1)"></div>
+        <div class="column"><img src="image/img_snow.jpg" class="hover-shadow" style="width:100%"
+                onclick="currentSlide(2)"></div>
+        <div class="column"><img src="image/img_mountains.jpg" class="hover-shadow" style="width:100%"
+                onclick="currentSlide(3)"></div>
+        <div class="column"><img src="image/img_lights.jpg" class="hover-shadow" style="width:100%"
+                onclick="currentSlide(4)"></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="slides">
+                <div class="numbertext">1 / 4</div>
+                <img src="image/img_nature_wide.jpg" style="width:100%">
+            </div>
+            <div class="slides">
+                <div class="numbertext">2 / 4</div>
+                <img src="image/img_snow_wide.jpg" style="width:100%">
+            </div>
+            <div class="slides">
+                <div class="numbertext">3 / 4</div>
+                <img src="image/img_mountains_wide.jpg" style="width:100%">
+            </div>
+            <div class="slides">
+                <div class="numbertext">4 / 4</div>
+                <img src="image/img_lights_wide.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="column"><img src="image/img_nature_wide.jpg" alt="Nature and sunrise" class="img-list"
+                    style="width:100%" onclick="currentSlide(1)">
+            </div>
+            <div class="column"><img src="image/img_snow_wide.jpg" alt="Snow" class="img-list" style="width:100%"
+                    onclick="currentSlide(2)">
+            </div>
+            <div class="column"><img src="image/img_mountains_wide.jpg" alt="Mountains and fjords" class="img-list"
+                    style="width:100%" onclick="currentSlide(3)">
+            </div>
+            <div class="column"><img src="image/img_lights_wide.jpg" alt="Northern img_lights_wide" class="img-list"
+                    style="width:100%" onclick="currentSlide(4)">
+            </div>
+
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>
