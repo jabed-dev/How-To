@@ -4,3 +4,32 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1,
+p {
+    margin: 10px 20px;
+}
+
+/* Image zoom container */
+.preview-container {
+    position: relative;
+    margin: 20px;
+}
+
+#image {
+    width: 300px;
+    height: 220px;
+}
+
+.zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    width: 40px;
+    height: 40px;
+}
+
+.zoom-preview {
+    border: 1px solid #d4d4d4;
+    width: 300px;
+    height: 300px;
+}

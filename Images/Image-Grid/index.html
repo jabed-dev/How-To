@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Image Grid</title>
 </head>
+
 <body>
 
-    
+    <!-- Header -->
+    <div class="header">
+        <h1>Image Grid</h1>
+        <p>Click on the buttons to change the grid view.</p>
+        <button class="btn" onclick="responsive(event, 100)">1</button>
+        <button class="btn active" onclick="responsive(event, 50)">2</button>
+        <button class="btn" onclick="responsive(event, 25)">4</button>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="Image/wedding.jpg" style="width:100%">
+            <img src="Image/rocks.jpg" style="width:100%">
+            <img src="Image/falls.jpg" style="width:100%">
+            <img src="Image/paris.jpg" style="width:100%">
+            <img src="Image/nature.jpg" style="width:100%">
+            <img src="Image/mist.jpg" style="width:100%">
+            <img src="Image/paris.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="Image/underwater.jpg" style="width:100%">
+            <img src="Image/ocean.jpg" style="width:100%">
+            <img src="Image/wedding.jpg" style="width:100%">
+            <img src="Image/mountainskies.jpg" style="width:100%">
+            <img src="Image/rocks.jpg" style="width:100%">
+            <img src="Image/underwater.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="Image/wedding.jpg" style="width:100%">
+            <img src="Image/rocks.jpg" style="width:100%">
+            <img src="Image/falls.jpg" style="width:100%">
+            <img src="Image/paris.jpg" style="width:100%">
+            <img src="Image/nature.jpg" style="width:100%">
+            <img src="Image/mist.jpg" style="width:100%">
+            <img src="Image/paris.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="Image/underwater.jpg" style="width:100%">
+            <img src="Image/ocean.jpg" style="width:100%">
+            <img src="Image/wedding.jpg" style="width:100%">
+            <img src="Image/mountainskies.jpg" style="width:100%">
+            <img src="Image/rocks.jpg" style="width:100%">
+            <img src="Image/underwater.jpg" style="width:100%">
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>

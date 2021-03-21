@@ -4,3 +4,38 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+    margin: 20px;
+}
+
+.img-comp-container {
+    position: relative;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.img-comp-img img {
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+.img-comp-slider {
+    position: absolute;
+    z-index: 2;
+    cursor: ew-resize;
+    /* set the appearance of the slider */
+    width: 40px;
+    height: 40px;
+    background-color: #2196f3;
+    opacity: 0.7;
+    border-radius: 50%;
+}

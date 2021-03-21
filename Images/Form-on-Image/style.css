@@ -4,3 +4,63 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body,
+html {
+    height: 100%;
+}
+
+/* The background Image used */
+.bg-img {
+    background-image: url("Image/img_nature.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Add style to the form container */
+.container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Full-width input fields */
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+input[type=email]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}

@@ -4,3 +4,51 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body,
+html {
+    height: 100%;
+}
+
+.bg-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url("Image/img_snow.jpg");
+}
+
+.img2 {
+    background-image: url("Image/img_lights.jpg");
+}
+
+.img3 {
+    background-image: url("Image/img_nature.jpg");
+}
+
+.img4 {
+    background-image: url("Image/img_forest.jpg");
+}
+
+.img5 {
+    background-image: url("Image/img_woods.jpg");
+}
+
+.bg-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}

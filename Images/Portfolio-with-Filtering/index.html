@@ -1,15 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Portfolio Gallery with Filtering</title>
 </head>
+
 <body>
 
-    
+    <!-- MAIN (Center website) -->
+    <div class="main">
+        <h1>MYLOGO.COM</h1>
+        <hr>
+        <h2>PORTFOLIO</h2>
+
+        <div id="btn-container">
+            <button class="btn active" onclick="filterSelection('all')">Show all</button>
+            <button class="btn" onclick="filterSelection('nature')">Nature</button>
+            <button class="btn" onclick="filterSelection('cars')">Cars</button>
+            <button class="btn" onclick="filterSelection('people')">People</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+
+            <!-- Nature content -->
+            <div class="column nature">
+                <div class="content">
+                    <img src="Image/mountains.jpg" alt="Mountains" style="width: 100%">
+                    <h4>Mountains</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+            </div>
+            <div class="column nature">
+                <div class="content">
+                    <img src="Image/lights.jpg" alt="Lights" style="width: 100%">
+                    <h4>Lights</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+            </div>
+            <div class="column nature">
+                <div class="content">
+                    <img src="Image/nature.jpg" alt="Nature" style="width: 100%">
+                    <h4>Forest</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+            </div>
+
+            <!-- Car content -->
+            <div class="column cars">
+                <div class="content">
+                    <img src="Image/cars1.jpg" alt="Car" style="width: 100%">
+                    <h4>Retro</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+            </div>
+            <div class="column cars">
+                <div class="content">
+                    <img src="Image/cars2.jpg" alt="Car" style="width: 100%">
+                    <h4>Fast</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+            </div>
+            <div class="column cars">
+                <div class="content">
+                    <img src="Image/cars3.jpg" alt="Car" style="width: 100%">
+                    <h4>Classicl</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+            </div>
+
+            <!-- People content -->
+            <div class="column people">
+                <div class="content">
+                    <img src="Image/people1.jpg" alt="People" style="width: 100%">
+                    <h4>Girl</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+            </div>
+            <div class="column people">
+                <div class="content">
+                    <img src="Image/people2.jpg" alt="People" style="width: 100%">
+                    <h4>Men</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+            </div>
+            <div class="column people">
+                <div class="content">
+                    <img src="Image/people3.jpg" alt="People" style="width: 100%">
+                    <h4>Boy</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+            </div>
+        </div>
+        <!-- END GRID -->
+
+    </div>
+    <!-- END MAIN -->
+
     <script src="app.js"></script>
 </body>
+
 </html>

@@ -1,6 +1,102 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.img-1 {
+    filter: blur(4px);
+}
+
+.img-2 {
+    filter: brightness(50%);
+}
+
+.img-3 {
+    filter: brightness(200%);
+}
+
+.img-4 {
+    filter: contrast(50%);
+}
+
+.img-5 {
+    filter: contrast(200%);
+}
+
+.img-6 {
+    filter: grayscale(30%);
+}
+
+.img-7 {
+    filter: grayscale(100%);
+}
+
+.img-8 {
+    filter: hue-rotate(50deg);
+}
+
+.img-9 {
+    filter: hue-rotate(200deg);
+}
+
+.img-10 {
+    filter: invert(20%);
+}
+
+.img-11 {
+    filter: invert(100%);
+}
+
+.img-12 {
+    filter: opacity(50%);
+}
+
+.img-13 {
+    filter: opacity(100%);
+}
+
+.img-14 {
+    filter: saturate(10);
+}
+
+.img-15 {
+    filter: saturate(100);
+}
+
+.img-16 {
+    filter: sepia(20%);
+}
+
+.img-17 {
+    filter: sepia(100%);
+}
+
+.img-18 {
+    filter: drop-shadow(10px 10px red);
+}
+
+.img-19 {
+    filter: drop-shadow(10px 10px 5px red);
+}
+
+.img {
+    filter: blur();
+    filter: brightness();
+    filter: contrast();
+    filter: drop-shadow();
+    filter: grayscale();
+    filter: hue-rotate();
+    filter: invert();
+    filter: opacity();
+    filter: saturate();
+    filter: sepia();
+    filter: url("svg-url#element-id");
 }

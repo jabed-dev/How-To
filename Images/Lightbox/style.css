@@ -80,7 +80,6 @@
     transition: 0.6s ease;
     border-radius: 0 5px 5px 0;
     user-select: none;
-    -webkit-user-select: none;
 }
 
 /* Position  the next button to the right */

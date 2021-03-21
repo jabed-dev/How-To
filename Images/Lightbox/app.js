@@ -1,4 +1,3 @@
-
 let slideIndex = 1
 showSlides(slideIndex)
 
@@ -23,7 +22,7 @@ function showSlides(n) {
     if (n > slides.length) { slideIndex = 1 }
     if (n < 1) { slideIndex = slides.length }
     for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = 'none'
+        temp = slides[i].style.display = 'none'
         imgList[i].classList.remove('active')
     }
 
