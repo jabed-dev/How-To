@@ -1,6 +1,23 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block:hover {
+    background-color: #ddd;
+    color: #000;
 }

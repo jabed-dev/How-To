@@ -4,3 +4,62 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+    margin: 20px;
+}
+
+.btn {
+    border: none;
+    color: #ffffff;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: #4caf50;
+    margin-left: 20px;
+}
+
+.success:hover {
+    background-color: #46a046;
+}
+
+.info {
+    background-color: #2196f3;
+}
+
+.info:hover {
+    background-color: #0b7dda;
+}
+
+.warning {
+    background-color: #ff9800;
+}
+
+.warning:hover {
+    background-color: #e68a00;
+}
+
+.danger {
+    background-color: #f44336;
+}
+
+.danger:hover {
+    background-color: #da190b;
+}
+
+.default {
+    background-color: #e7e7e7;
+    color: #000000;
+}
+
+.default:hover {
+    background-color: #dddddd;
+}
+
+.btn:focus {
+    outline: rgba(126, 126, 126, 0.5) auto 1px;
+}

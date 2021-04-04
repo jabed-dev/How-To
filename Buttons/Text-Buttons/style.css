@@ -1,6 +1,67 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+/* Green */
+.success {
+    color: green;
+}
+
+.success:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/* Blue */
+.info {
+    color: dodgerblue;
+}
+
+.info:hover {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+/* Orange */
+.warning {
+    color: orange;
+}
+
+.warning:hover {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+
+/* Red */
+.danger {
+    color: red;
+}
+
+.danger:hover {
+    background-color: #f44336;
+    color: #fff;
+}
+
+/* Gray */
+.default {
+    color: black;
+}
+
+.default:hover {
+    background-color: #e7e7e7;
 }
