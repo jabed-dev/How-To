@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Custom Checkbox/Radio</title>
 </head>
-<body>
 
-    
+<body>
+    <div class="row">
+        <div class="col">
+            <h2>Custom Checkboxes</h2>
+            <label class="container">One
+                <input type="checkbox" checked>
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Two
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Three
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="col">
+            <h2>Custom Radio Buttons</h2>
+            <label class="container">One
+                <input type="radio" checked name="radio">
+                <span class="radiomark"></span>
+            </label>
+            <label class="container">Two
+                <input type="radio" name="radio">
+                <span class="radiomark"></span>
+            </label>
+            <label class="container">Three
+                <input type="radio" name="radio">
+                <span class="radiomark"></span>
+            </label>
+        </div>
+    </div>
+
+    <!-- <script>
+        let checked = document.getElementById('checked')
+        console.log(checked.checked)
+    </script> -->
     <script src="app.js"></script>
 </body>
+
 </html>

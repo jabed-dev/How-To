@@ -1,6 +1,16 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+input[type=text],
+textarea {
+    padding: 5px;
+    font-size: 16px;
 }

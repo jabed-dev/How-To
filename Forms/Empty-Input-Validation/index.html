@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Empty Input Validation</title>
 </head>
-<body>
 
-    
+<body>
+    <h2>JavaScript validation for empty input field</h2>
+
+    <form onsubmit="validateForm()" required>
+        Name: &nbsp; &nbsp; &nbsp; <input type="text" name="fname">
+        <br><br>
+        Password: <input type="password" name="password">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
     <script src="app.js"></script>
 </body>
+
 </html>

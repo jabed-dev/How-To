@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Form with Icons</title>
 </head>
+
 <body>
 
-    
+    <form>
+        <h2>Register Form</h2>
+        <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input type="text" name="username" class="input-field" placeholder="Username">
+        </div>
+        <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input type="email" name="email" class="input-field" placeholder="Email">
+        </div>
+        <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input type="password" name="password" class="input-field" placeholder="Password">
+        </div>
+        <button type="submit" class="register-btn">Register</button>
+    </form>
+
     <script src="app.js"></script>
 </body>
+
 </html>
