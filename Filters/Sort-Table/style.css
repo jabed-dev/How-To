@@ -1,6 +1,43 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#sortbtn {
+    width: 100px;
+    background-color: #009900;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 3px;
+}
+
+#sortbtn:hover,
+#sortbtn:focus {
+    background-color: #008800;
+}
+
+table {
+    width: 600px;
+    border: 1px solid #ddd;
+    border-spacing: 0;
+    margin-top: 10px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 14px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+table tr:first-child {
+    background-color: #aaaaaa;
+    color: #fff;
 }
