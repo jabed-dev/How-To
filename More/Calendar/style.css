@@ -1,6 +1,125 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.calendar-container {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.month-container {
+    padding: 60px 25px;
+    width: 100%;
+    background-color: #1abc9c;
+    text-align: center;
+}
+
+.month-container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month-container ul li {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#prev,
+#next {
+    float: left;
+    padding-top: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#next {
+    float: right;
+}
+
+#prev:hover,
+#next:hover {
+    color: #eee;
+}
+
+#weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #cecece;
+}
+
+#weekdays li {
+    display: inline-block;
+    width: calc(100% / 7 - 5px);
+    margin: 0;
+    color: #303030;
+    text-align: center;
+}
+
+#days {
+    padding: 10px 0;
+    background-color: #e6e6e6;
+    margin: 0;
+}
+
+#days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 14.2%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding: 8px;
+    color: #444;
+}
+
+.prev-day,
+.next-day {
+    color: #adadad !important;
+}
+
+#days li .today {
+    padding: 6px;
+    display: inline-block;
+    background-color: #1abc9c;
+    color: #fff !important;
+}
+
+
+/* Add media queries for smaller screens */
+@media (max-width: 800px) {
+    .calendar-container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+
+    .month-container {
+        padding: 40px 25px;
+    }
+
+    #days li {
+        font-size: 13px;
+        padding: 6px 0;
+    }
+
+    #days li .today {
+        width: 22px;
+        padding: 2px;
+    }
 }

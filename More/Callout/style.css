@@ -1,6 +1,41 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.callout {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+    background-color: #ccc;
+}
+
+.callout-header {
+    padding: 25px 15px;
+    background-color: #555;
+    font-size: 30px;
+    color: #fff;
+}
+
+.callout-container {
+    padding: 15px;
+    background-color: #ccc;
+    color: #000;
+}
+
+.closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: #d3d3d3;
 }

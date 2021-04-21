@@ -1,6 +1,41 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding: 10px;
+    color: #fff;
+}
+
+.html {
+    width: 90%;
+    background-color: #4caf50;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196f3;
+}
+
+.js {
+    width: 85%;
+    background-color: #f44336;
+}
+
+.nodejs {
+    width: 50%;
+    background-color: #808080;
 }
