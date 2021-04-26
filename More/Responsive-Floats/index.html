@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Responsive Floats</title>
 </head>
-<body>
 
-    
+<body>
+    <h2>Responsive Floats</h2>
+    <p>The float-right-sm class will float right on screens that are equal to or LESS THAN 768px. The float-right-lg
+        will float right on screens that are equal to or GREATER THAN 769px. Note that we also use a clearfix to clear
+        floats. </p>
+    <p>Resize the browser window to see the result.</p>
+
+    <div class="clearfix">
+        <span class="float-right-sm">Float right =&lt;760px</span><br>
+        <span class="float-right-lg">Float right =&gt;761px</span><br>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, itaque! Doloribus rem pariatur quis dignissimos
+        sed excepturi earum optio nesciunt, porro vel temporibus libero, omnis, quasi eos esse neque atque.</p>
+
+
+    <div>
+        <span style="float: right;">Hello</span>
+        <span style="float: right;">World!</span>
+    </div>
     <script src="app.js"></script>
 </body>
+
 </html>

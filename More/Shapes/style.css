@@ -1,6 +1,62 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: #555;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+.oval {
+    width: 100px;
+    height: 50px;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+.trapezoid {
+    width: 125px;
+    height: 0;
+    border-bottom: 50px solid #555;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.rectangle {
+    width: 100px;
+    height: 50px;
+    background-color: #555;
+}
+
+.parallelogram {
+    width: 100px;
+    height: 50px;
+    background-color: #555;
+    transform: skew(20deg);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #555;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
 }

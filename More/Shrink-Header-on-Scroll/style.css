@@ -4,3 +4,22 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#header {
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 50px 10px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.3s;
+}
+
+body .container {
+    margin-top: 200px;
+    padding: 15px 15px 500px;
+    font-size: 30px;
+}

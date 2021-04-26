@@ -1,6 +1,32 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: rgb(187, 226, 194);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, red, blue, red);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(45deg, blue, red, blue);
 }

@@ -1,6 +1,19 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 2000px;
+    background-color: #f1f1f1;
+}
+
+#svg {
+    position: fixed;
+    width: 400px;
+    height: 210px;
+    top: 15%;
+    margin-left: -50px;
 }

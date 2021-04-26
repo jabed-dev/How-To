@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Fullscreen with JavaScript</title>
 </head>
-<body>
 
-    
+<body>
+    <h2>Fullscreen with JavaScript</h2>
+    <button id="video-fullscreen-btn">Open Video Fullscreen mode</button>
+    <p><strong>Tip:</strong> "Esc" key to exit fullscreen mode.</p>
+
+    <video id="video" width="100%" controls>
+        <source src="Video/rain.mp4" type="video/mp4">
+    </video>
+    <br><br>
+    <div id="element" style="background-color: #fff; color: #000;">
+        <h1>Element Fullscreen</h1>
+        <button id="element-fullscreen-btn">Open Elements Fullscreen mode</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sequi repellat ex molestiae sint maxime quia
+            sunt cupiditate. Maiores labore vel sed cupiditate numquam quisquam facilis at eum iste laudantium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sequi repellat ex molestiae sint maxime quia
+            sunt cupiditate. Maiores labore vel sed cupiditate numquam quisquam facilis at eum iste laudantium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sequi repellat ex molestiae sint maxime quia
+            sunt cupiditate. Maiores labore vel sed cupiditate numquam quisquam facilis at eum iste laudantium.</p>
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>

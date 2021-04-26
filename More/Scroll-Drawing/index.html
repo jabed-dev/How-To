@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Scroll Drawing</title>
 </head>
-<body>
 
-    
+<body>
+    <h2>Scroll down this window to draw a triangle.</h2>
+    <p>Scroll back up to reverse the drawing.</p>
+
+    <svg id="svg">
+        <path fill="none" stroke="red" stroke-width="3" id="triangle" d="M150 0 L75 200 L225 200 Z">
+    </svg>
+
     <script src="app.js"></script>
 </body>
+
 </html>

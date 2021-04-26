@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Create a Syntax Highlight</title>
 </head>
-<body>
 
-    
+<body>
+    <div id="html-content">
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;style&gt;
+    .demo {
+        background-color: #fff;
+        color: #000 !important;
+    }
+&lt;/style&gt;
+&lt;body&gt;<br>
+    &lt;h1&gt;Testing an HTML Syntax Highlighter&lt;/h2&gt;<br>
+    &lt;!-- paragraph --&gt;
+    &lt;p id="demo" style="color: red; font-size: 20px"&gt;Hello world!&lt;/p&gt;<br>
+    &lt;a href="https://www.example.com"&gt;Back to School&lt;/a&gt;<br>
+    &lt;script&gt;
+        let name = 'document';
+        let number = 100;
+        console.log('Hello world!')
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>

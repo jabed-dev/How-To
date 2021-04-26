@@ -1,0 +1,74 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The browser window */
+.container {
+    border: 3px solid #f1f1f1;
+    border-radius: 4px 4px 0 0;
+}
+
+/* Container for columns and the top toolbar */
+.row {
+    display: flex;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+}
+
+.left {
+    flex: 15%;
+}
+
+.right {
+    flex: 10%;
+}
+
+.middle {
+    flex: 75%;
+}
+
+
+/* Three dots */
+.dot {
+    margin-top: 4px;
+    margin-left: 3px;
+    width: 12px;
+    height: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Style the input field */
+input[type=text] {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    color: #666;
+    margin-top: -8px;
+    height: 25px;
+    padding: 5px;
+}
+
+/* Three bars (hamburger menu) */
+.bar {
+    width: 17px;
+    height: 3px;
+    background-color: #aaa;
+    margin: 3px 0;
+    display: block;
+}
+
+/* Page content */
+.content {
+    padding: 10px;
+}

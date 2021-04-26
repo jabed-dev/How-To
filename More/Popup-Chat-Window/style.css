@@ -1,6 +1,74 @@
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.chat-btn {
+    background-color: #555;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    position: fixed;
+    width: 280px;
+    right: 28px;
+    bottom: 24px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.chat-container {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    border-radius: 4px;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin: 12px 0;
+    border: none;
+    background-color: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 6px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: #f00;
+}
+
+.form-container .btn:hover,
+.chat-btn:hover {
+    opacity: 1;
 }
